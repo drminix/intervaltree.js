@@ -1,6 +1,10 @@
 # intervaltree.js
-Interval tree data structure in javascript (modification on RBT)
+=======================
+[Interval tree](http://en.wikipedia.org/wiki/Interval_tree) data structure in implemented 100% in JavaScript. 
 
-It is an implementation of interval tree in JavaScript. Interval is an ordered tree data structure optimized for finding overlapping intervals when given (1) a specific timestamp or (2) a time-interval. Here is how to use it
+Interval is an ordered tree data structure optimized for finding overlapping intervals when given (1) a specific timestamp or (2) a time-interval. This is a modification of RBT tree, and is often used for windowing queries. For example, it can be used to find all applications ran within a given time window.
+
+
+
 
 
